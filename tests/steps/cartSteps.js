@@ -1,5 +1,4 @@
 const { createBdd } = require('playwright-bdd');
-const LoginPage = require('../pages/LoginPage');
 const HomePage = require('../pages/HomePage');
 
 const { Given, When, Then } = createBdd();
